@@ -1,5 +1,0 @@
-npmScopes:
-awesome.me:
-  npmAlwaysAuth: true
-  npmRegistryServer: "https://npm.fontawesome.com/"
-  npmAuthToken: "NT05Sp3dpe6ACyTdk3xe9wFGXRlxbhZWG4QMVSLG"
