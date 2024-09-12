@@ -1,29 +1,29 @@
-.sidebar-li-title-stories {
+.sidebar-li-title-stories::before {
 	display: block;
-	padding: .35rem, .5rem;
+	padding: .35em .5em;
 	text-align: center;
 	content: "─── Stories ───";
-	font-size: .9rem;
-	letter-spacing: .03rem;
+	font-size: .9em;
+	letter-spacing: .03em;
 	color: #53698B;
 }
 
-.sidebar-li-title-links {
+.sidebar-li-title-links::before {
 	display: block;
-	padding: .35rem, .5rem;
+	padding: .35em .5em;
 	text-align: center;
 	content: "─── Links ───";
-	font-size: .9rem;
-	letter-spacing: .03rem;
+	font-size: .9em;
+	letter-spacing: .03em;
 	color: #53698B;
 }
 
 .sidebar-li {
 	display: block;
-	padding: .35rem, .5rem;
+	padding: .35em .5em;
 	text-align: center;
-	font-size: .9rem;
-	letter-spacing: .03rem;
+	font-size: .9em;
+	letter-spacing: .03em;
 	color: #53698B;
 }
 
@@ -67,4 +67,16 @@
 @media screen and (max-height: 768px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+.sidebar-nav li {
+	margin:0;
+	padding:0;
+}
+
+.sidebar-nav li a {
+	color:#4646db;
+	font-size:10pt;
+	padding: .25em .5em;
+	margin-left: 1.5em;
 }
