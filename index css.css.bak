@@ -22,7 +22,6 @@
 	display: block;
 	padding: .35rem, .5rem;
 	text-align: center;
-	content: "─── Links ───";
 	font-size: .9rem;
 	letter-spacing: .03rem;
 	color: #53698B;
