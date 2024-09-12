@@ -58,6 +58,7 @@
 	background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	min-height:100%;
 }	
 
 .main {
