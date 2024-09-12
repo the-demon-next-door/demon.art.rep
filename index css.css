@@ -1,4 +1,4 @@
-.sidebar-li-title-stories {
+.sidebar-li-title-stories::before {
 	display: block;
 	padding: .35rem, .5rem;
 	text-align: center;
@@ -8,7 +8,7 @@
 	color: #53698B;
 }
 
-.sidebar-li-title-links {
+.sidebar-li-title-links::before {
 	display: block;
 	padding: .35rem, .5rem;
 	text-align: center;
