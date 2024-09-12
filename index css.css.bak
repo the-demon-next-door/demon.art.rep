@@ -1,0 +1,32 @@
+.sidebar-li-title-stories {
+	display: block;
+	padding: .35rem, .5rem;
+	text-align: center;
+	content: "─── Stories ───";
+	font-size: .9rem;
+	letter-spacing: .03rem;
+	color: #53698B;
+}
+
+.sidebar-li-title-links {
+	display: block;
+	padding: .35rem, .5rem;
+	text-align: center;
+	content: "─── Links ───";
+	font-size: .9rem;
+	letter-spacing: .03rem;
+	color: #53698B;
+}
+
+.sidebar {
+	background: rgba(0,0,0,0.9)
+}
+
+.list-unstyled {
+	list-style:none;
+	padding-left:0;
+}
+
+.sidebar-nav {
+	display:flex;
+}
