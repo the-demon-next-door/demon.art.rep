@@ -183,4 +183,9 @@ body, p, a {
 
 hr {
 	border-color:rgba(70,70,219,0.25);
+	border:0;
+	margin-top:1rem;
+	box-sizing:content-box;
+	height:0;
+	overflow:visible;
 }
