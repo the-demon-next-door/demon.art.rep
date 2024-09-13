@@ -252,7 +252,7 @@ hr {
 .focal-image {
 	display:block;
 	margin: 0 auto;
-	max-height:550px;
+	max-height:500px;
 	border-radius:.25em;
 }
 
@@ -260,7 +260,7 @@ hr {
 	background-size:cover;
 	background-position:center 0;
 	background-repeat: no-repeat;
-	border radius:.25em;
+	border-radius:.25em;
 }
 
 @media (min-width:768px) {
@@ -290,4 +290,15 @@ p {
 .col-12 {
 	flex:0 0 100%;
 	max-width:100%;
+}
+
+.section-block {
+	border-radius:.25em;
+	display:block;
+	flex:1 1 auto;
+	padding:1.25rem;
+}
+
+.pt-3, py-3 {
+	padding-top:1rem !important;
 }
