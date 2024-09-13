@@ -3,12 +3,22 @@
 	line-height:1.15;
 }
 
+.sidebar-li-title-name::before {
+	display: block;
+	padding: .35rem .5rem;
+	text-align: center;
+	content: "the-demon-next-door";
+	font-size: 1rem;
+	letter-spacing: .03rem;
+	color: #53698B;
+}
+
 .sidebar-li-title-stories::before {
 	display: block;
 	padding: .35rem .5rem;
 	text-align: center;
 	content: "─── Stories ───";
-	font-size: .9rem;
+	font-size: 1rem;
 	letter-spacing: .03rem;
 	color: #53698B;
 }
@@ -18,7 +28,7 @@
 	padding: .35rem .5rem;
 	text-align: center;
 	content: "─── Links ───";
-	font-size: .9rem;
+	font-size: 1rem;
 	letter-spacing: .03rem;
 	color: #53698B;
 }
@@ -33,9 +43,9 @@
 }
 
 .sidebar {
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,0.85);
 	height:100%;
-	width: 200px;
+	width: 250px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -82,23 +92,37 @@
 
 .sidebar-nav li a {
 	color:#4646db;
-	font-size:10pt;
-	padding: .25em .5em;
+	font-size:.9rem;
+	padding: .2em .5em;
 	letter-spacing:1px;
 	display:inline-block;
 	border-radius:.5em;
 	text-decoration: none;
+	transition-duration:0.5s;
+}
+
+.sidebar-nav li a:hover {
+	filter:brightness(0.8);
+	transition-duration:0.5s;
+	transition-property:filter;
+}
+
+.sidebar-nav li a:focus {
+	filter:brightness(0.8);
+	transition-duration:0.5s;
+	transition-property:filter;
 }
 
 .a {
 	text-decoration:none;
 }
 
-.sidebar-icon img {
+.sidebar .sidebar-li img {
 	display:block;
 	max-height:150px;
 	max-width:150px;
 	margin:10px auto !important;
 	background-color:#4646db;
 	padding:2px;
+	border-radius:50%;
 }
