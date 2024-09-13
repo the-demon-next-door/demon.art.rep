@@ -81,7 +81,6 @@
 	height:100%;
 	max-width:85%;
 	margin-left:270px;
-	overflow-x: hidden;
 	padding-top: 20px;
 }
 
@@ -177,3 +176,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	margin :.67em 0;
 }	
+
+body, p, a {
+	font-family: Roboto, arial, sans-serif;
+}
+
+hr {
+	border-color:rgba(70,70,219,0.25);
+}
