@@ -3,7 +3,7 @@
 	line-height:1.15;
 }
 
-/* .sidebar-li-title-stories::before {
+.sidebar-li-title-stories::before {
 	display: block;
 	padding: .35rem .5rem;
 	text-align: center;
@@ -21,24 +21,14 @@
 	font-size: .9rem;
 	letter-spacing: .03rem;
 	color: #53698B;
-} */
-
-.sidebar-li-divider::after {
-	display: block;
-	padding: .35rem .5rem;
-	text-align: center;
-	border-top: 3px solid #53698B;
-	font-size: .9rem;
-	letter-spacing: .03rem;
-	color: #53698B;
 }
 
 .sidebar-li {
 	display: block;
-	padding: .35em .5em;
+	padding: .35rem .5rem;
 	text-align: center;
-	font-size: .9em;
-	letter-spacing: .03em;
+	font-size: .9rem;
+	letter-spacing: .03rem;
 	color: #53698B;
 }
 
