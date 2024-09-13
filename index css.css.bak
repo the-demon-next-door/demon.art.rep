@@ -77,7 +77,6 @@
 }	
 
 .main {
-	background: rgba(0,0,0,0.85);
 	height:100%;
 	max-width:85%;
 	margin-left:270px;
@@ -133,6 +132,43 @@
 }
 
 html,body {
-    padding:0px;
+    padding:0px 10px;
     margin:0px;
+}
+
+.page-section {
+	background: rgba(0,0,0,0.85);
+	border-radius: .25em;
+	display: flex;
+	flex-direction:column;
+	position:relative;
+}
+
+.section-title {
+	padding: 20px 20px 0;
+	line-height: 1;
+}
+
+.section-title h1 {
+	margin-bottom:0;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size:2em;
+	font-weight:400;
+	letter-spacing:1.5px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color:inherit;
+	font-family:inherit;
+	line-height:1.1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top:0;
 }
