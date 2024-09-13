@@ -281,3 +281,8 @@ body, p, td {
 	letter-spacing:.45px;
 	font-size:10.5pt;
 }
+
+p {
+	margin-bottom:1rem;
+	margin-top:0;
+}
