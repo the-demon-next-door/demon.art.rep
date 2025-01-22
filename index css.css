@@ -296,3 +296,7 @@ p {
 .pt-3, py-3 {
 	padding-top:1rem !important;
 }
+
+.col-md-6 {
+	text-align:center;
+}
